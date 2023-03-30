@@ -1,4 +1,4 @@
-/ SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: MIT
 // WTF Solidity by 0xAA
 
 pragma solidity ^0.8.4;
@@ -31,9 +31,9 @@ contract ERC20 is IERC20 {
 
     mapping(address => mapping(address => uint256)) public override allowance;
 
-    uint256 public override totalSupply;   
+    uint256 public override totalSupply;
 
-    string public name; 
+    string public name;
     string public symbol;
     
     uint8 public decimals = 18;
